@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import Section from '../layout/Section'
 import { calculatorCopy } from '../../data/content'
+import { getWhatsAppUrl } from '../../lib/whatsapp'
 
 function RangeField({ label, value, min, max, step, onChange, limitMin, limitMax }) {
   return (
@@ -79,9 +80,14 @@ export default function CalculatorSection() {
           <p className="t-calc-volume">
             {copy.volumeLabel} {squareVolume} {copy.volumeUnit}
           </p>
-          <button type="button" className="t-btn t-btnflex t-btnflex--calc">
+          <a
+            href={getWhatsAppUrl()}
+            className="t-btn t-btnflex t-btnflex--calc"
+            target="_blank"
+            rel="noreferrer"
+          >
             {copy.consultation}
-          </button>
+          </a>
         </div>
       </Section>
 
@@ -93,9 +99,14 @@ export default function CalculatorSection() {
           <p className="t-calc-volume">
             {copy.volumeLabel} {roundVolume} {copy.volumeUnit}
           </p>
-          <button type="button" className="t-btn t-btnflex t-btnflex--calc">
+          <a
+            href={getWhatsAppUrl()}
+            className="t-btn t-btnflex t-btnflex--calc"
+            target="_blank"
+            rel="noreferrer"
+          >
             {copy.consultation}
-          </button>
+          </a>
         </div>
       </Section>
 
@@ -113,9 +124,14 @@ export default function CalculatorSection() {
           <p className="t-calc-volume">
             {copy.dosageTotalLabel} {totalFromRate37} {copy.dosageTotalUnit}
           </p>
-          <button type="button" className="t-btn t-btnflex t-btnflex--calc">
+          <a
+            href={getWhatsAppUrl()}
+            className="t-btn t-btnflex t-btnflex--calc"
+            target="_blank"
+            rel="noreferrer"
+          >
             {copy.consultation}
-          </button>
+          </a>
         </div>
       </Section>
 
@@ -133,9 +149,14 @@ export default function CalculatorSection() {
           <p className="t-calc-volume">
             {copy.dosageTotalLabel} {totalFromRate60} {copy.dosageTotalUnit}
           </p>
-          <button type="button" className="t-btn t-btnflex t-btnflex--calc">
+          <a
+            href={getWhatsAppUrl()}
+            className="t-btn t-btnflex t-btnflex--calc"
+            target="_blank"
+            rel="noreferrer"
+          >
             {copy.consultation}
-          </button>
+          </a>
         </div>
       </Section>
     </>
