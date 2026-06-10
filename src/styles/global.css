@@ -656,6 +656,10 @@ button {
   font-weight: 600;
 }
 
+.t-calc-range__slider-wrap {
+  padding: 0 10px;
+}
+
 .t-calc-range input[type='range'] {
   width: 100%;
   height: 2px;
@@ -708,6 +712,8 @@ button {
 .t-calc-range__limits {
   display: flex;
   justify-content: space-between;
+  gap: 16px;
+  padding: 0 10px;
   font-size: 16px;
   font-weight: 300;
   color: #000;
