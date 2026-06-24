@@ -17,9 +17,10 @@ export default function LocationSection() {
           <p className="t-location__address">
             <strong>{locationSection.address}</strong>
           </p>
+          <p className="t-location__note">{locationSection.addressNote}</p>
         </div>
         <div className="t-location__map">
-          <img src={locationSection.image} alt="" />
+          <img src={locationSection.image} alt="Карта офиса ZNS на 2GIS" />
         </div>
         <div className="t-location__actions">
           <a
