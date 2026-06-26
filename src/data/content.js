@@ -109,7 +109,7 @@ export const products = [
   {
     name: 'Перекись водорода 60%',
     volume: '5 литров',
-    price: '11 900',
+    price: '11 400',
     oldPrice: '13 900',
     currency: 'тг.',
     image: images.product60,
@@ -117,7 +117,7 @@ export const products = [
   {
     name: 'Перекись водорода 37%',
     volume: '5 литров',
-    price: '9 900',
+    price: '9 400',
     oldPrice: '11 900',
     currency: 'тг.',
     image: images.product37_5l,
