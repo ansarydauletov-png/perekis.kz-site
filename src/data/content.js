@@ -8,7 +8,6 @@ export const images = {
   bullet3: '/images/bullet-3.png',
   delivery: '/images/delivery.png',
   product60: '/images/product-60.png',
-  product37_5l: '/images/product-37-5l.png',
   product37_10l: '/images/product-37-10l.png',
   location: '/images/location.png',
   whatsappFab: '/images/whatsapp-fab.png',
@@ -113,14 +112,6 @@ export const products = [
     oldPrice: '14 400',
     currency: 'тг.',
     image: images.product60,
-  },
-  {
-    name: 'Перекись водорода 37%',
-    volume: '5 литров',
-    price: '10 400',
-    oldPrice: '12 900',
-    currency: 'тг.',
-    image: images.product37_5l,
   },
   {
     name: 'Перекись водорода 60%',
